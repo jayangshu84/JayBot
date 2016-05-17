@@ -1,8 +1,8 @@
-# EstherBot built using the Smooch Bot example
-If you want a slightly more sophisticated setup and are comfortable using the console then go see the original here: https://github.com/smooch/smooch-bot-example 
+# JayBot built using the Smooch Bot example
+If you want a slightly more sophisticated setup and are comfortable using the console then go see the original here: https://github.com/smooch/smooch-bot-example
 
-Or if you want to test out EstherBot live go say hi on your platform of choice:
-http://estherbot.com
+Or if you want to test out JayBot live go say hi on your platform of choice:
+http://jayangshusaha.com
 
 # Build Your Bot
 
@@ -22,7 +22,7 @@ Creating this version will give you a web based chat app. With a few integration
 
     [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/esthercrawford/estherbot)
 
-1. Your app should now be running on Heroku but you're not quite done yet. Take note of the URL where your heroku app is running, for example `https://foo-bar-4242.herokuapp.com`. You'll need to specify this in your heroku app `SERVICE_URL` config variable. You can do this in the Heroku control panel under *Settings* > *Config Variables*. Make sure to go under Deploy and connect to your GitHub repo. Then, enable Automatic Deploys from the master branch (this means anytime you make an edit to your bot's script, it'll automatically update and talk as intended in seconds.) 
+1. Your app should now be running on Heroku but you're not quite done yet. Take note of the URL where your heroku app is running, for example `https://foo-bar-4242.herokuapp.com`. You'll need to specify this in your heroku app `SERVICE_URL` config variable. You can do this in the Heroku control panel under *Settings* > *Config Variables*. Make sure to go under Deploy and connect to your GitHub repo. Then, enable Automatic Deploys from the master branch (this means anytime you make an edit to your bot's script, it'll automatically update and talk as intended in seconds.)
 
 1. You should be all set. Open your Heroku app and start chatting with your new bot!
 
@@ -33,29 +33,29 @@ By clicking on the pencil icon you can edit the document. The keywords are on th
 
 Keywords are not case sensitive for users.
 
-The only two keywords you don't want to change are CONNECT ME and DISCONNECT. CONNECT ME turns the automated chat off, so the bot will stop responding to keywords. DISCONNECT will turn the bot back on. 
+The only two keywords you don't want to change are CONNECT ME and DISCONNECT. CONNECT ME turns the automated chat off, so the bot will stop responding to keywords. DISCONNECT will turn the bot back on.
 
-Also, the initial script starts with "So you want to learn about Esther? ..." but of course you'll want to change it. You can edit it in the script.js file.
+Also, the initial script starts with "So you want to learn more about Jay? ..." but of course you'll want to change it. You can edit it in the script.js file.
 
 ##Add line breaks to your messages
 If you want your bot's responses to be broken into different bubbles you'll need to add \n.
-Here's an example: Hi there!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.
+Here's an example: Hi there!\nI’m the personal bot of Jay, a Software Engineer from London, UK.
 
-Now that message will be broken into two bubbles. First, it'll say "Hi there!" then it'll say "I'm the personal bot of Esther, a Product Marketer from San Francisco."
+Now that message will be broken into two bubbles. First, it'll say "Hi there!" then it'll say "I'm the personal bot of Jay, a Software Engineer from San Francisco."
 
 ##Add images to your messages
 Adding pictures is super easy. Make sure you upload the files to your img folder. Then click on the image and select Raw to get the link for your image.
 
-Here's an example of the syntax for adding an image: 
+Here's an example of the syntax for adding an image:
 
-    Hi there!\nI'm the personal bot of Esther, a Product Marketer from San Francisco.\n![esther](https://raw.githubusercontent.com/esthercrawford/EstherBot/master/img/esther.jpg)
+    Hi there!\nI'm the personal bot of Jay, a Software Engineer from London, UK.\n![jay](https://raw.githubusercontent.com/esthercrawford/EstherBot/master/img/esther.jpg)
 
 ##Add buttons to your messages
 On Facebook Messenger these buttons are called "structured messages". It makes it easier for your user to follow the script. They don't even have to type the keywords - they just have to select a button. That means fewer user errors and less frustration.
 
-In the script.json file you'll notice this: 
+In the script.json file you'll notice this:
 
-    %[Tweet Esther](http://bit.ly/estherbot-tweet)
+    %[Tweet Jay](http://bit.ly/estherbot-tweet)
 
 This is a smiple link button. When the user taps it, they will open the link in a new browser window.
 
@@ -70,13 +70,13 @@ The syntax is similar to a link button, but note the `postback:` prefix. The "Te
 - Postbacks: http://docs.smooch.io/#postbacks
 - Webhooks: http://docs.smooch.io/rest/#webhooks
 
-The good news is Estherbot is clever, and simplifies much of this! Estherbot [will automatically](https://github.com/esthercrawford/EstherBot/blob/master/heroku/index.js#L113) accept postback events and treat them as if they were a keyword sent by the user. For example, when a user taps a postback button such as `%[Tell her](postback:twitter)` Estherbot will react as if they had typed out the message `Tell her`.
+The good news is Jaybot is clever, and simplifies much of this! Jaybot [will automatically](https://github.com/esthercrawford/EstherBot/blob/master/heroku/index.js#L113) accept postback events and treat them as if they were a keyword sent by the user. For example, when a user taps a postback button such as `%[Tell her](postback:twitter)` Estherbot will react as if they had typed out the message `Tell her`.
 
 ##Bring it altogether
 Read the JSON below and you'll see there are line breaks, an image, and 3 buttons in this bot's response.   
 
     {
-        "BOT": "Hi there!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)"
+        "BOT": "Hi there!\nI’m the personal bot of Jay, a Software Engineer from London, UK.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Jay? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Jay](postback:learn_about_esther) %[One random fact!](postback:random_fact)"
     }
 
 ⚠️ **Note:** If you're not familiar with the JSON syntax you can always paste your script into http://jsonlint.com/ to make sure your syntax in order.
@@ -185,4 +185,3 @@ Great question! Now that you've found your bug and fixed it, you want to redeplo
     Then, you can deploy those changes to heroku in the same way:
 
         git push heroku master
-
