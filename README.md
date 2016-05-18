@@ -48,7 +48,7 @@ Adding pictures is super easy. Make sure you upload the files to your img folder
 
 Here's an example of the syntax for adding an image:
 
-    Hi there!\nI'm the personal bot of Jay, a Software Engineer from London, UK.\n![jay](https://raw.githubusercontent.com/esthercrawford/EstherBot/master/img/esther.jpg)
+    Hi there!\nI'm the personal bot of Jay, a Software Engineer from London, UK.\n![jay](https://raw.githubusercontent.com/jayangshu84/JayBot/master/img/jay.jpg)
 
 ##Add buttons to your messages
 On Facebook Messenger these buttons are called "structured messages". It makes it easier for your user to follow the script. They don't even have to type the keywords - they just have to select a button. That means fewer user errors and less frustration.
@@ -70,13 +70,13 @@ The syntax is similar to a link button, but note the `postback:` prefix. The "Te
 - Postbacks: http://docs.smooch.io/#postbacks
 - Webhooks: http://docs.smooch.io/rest/#webhooks
 
-The good news is Jaybot is clever, and simplifies much of this! Jaybot [will automatically](https://github.com/esthercrawford/EstherBot/blob/master/heroku/index.js#L113) accept postback events and treat them as if they were a keyword sent by the user. For example, when a user taps a postback button such as `%[Tell her](postback:twitter)` Estherbot will react as if they had typed out the message `Tell her`.
+The good news is Jaybot is clever, and simplifies much of this! Jaybot [will automatically](https://github.com/jayangshu84/JayBot/blob/master/heroku/index.js#L113) accept postback events and treat them as if they were a keyword sent by the user. For example, when a user taps a postback button such as `%[Tell her](postback:twitter)` Jaybot will react as if they had typed out the message `Tell her`.
 
 ##Bring it altogether
 Read the JSON below and you'll see there are line breaks, an image, and 3 buttons in this bot's response.   
 
     {
-        "BOT": "Hi there!\nI’m the personal bot of Jay, a Software Engineer from London, UK.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Jay? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Jay](postback:learn_about_esther) %[One random fact!](postback:random_fact)"
+        "BOT": "Hi there!\nI’m the personal bot of Jay, a Software Engineer from London, UK.\n![Jay](https://raw.githubusercontent.com/jayangshu84/JayBot/master/img/jay.jpg)\nWant to know more about bots or learn about Jay? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Jay](postback:learn_about_Jay) %[One random fact!](postback:random_fact)"
     }
 
 ⚠️ **Note:** If you're not familiar with the JSON syntax you can always paste your script into http://jsonlint.com/ to make sure your syntax in order.
