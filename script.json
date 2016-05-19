@@ -3,13 +3,15 @@
     "HELLO": "Hey, I'm so glad you want to chat JayBot up! Do you want to tell Jay that you're talking to his bot? %[Tell him](postback:twitter)",
     "TELL HER": "Let's tweet @jayangshusaha so that he knows you want a bot like this. Here's a tweet that's ready to go: %[Tweet Jay](http://bit.ly/estherbot-tweet)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
+    "more":"Want to know more about bots or learn about Jay? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Jay](postback:learn_about_Jay) %[One random fact!](postback:random_fact)",
     "HI":"Hiya",
     ":)":":)",
     ";)":";) ;)",
     "learn about Jay":"I can tell you a bunch of stuff about Jay. Let me know what's interesting to you.%[Childhood](postback:childhood) %[Education](postback:education) %[Career](postback:career)",
-    "CHILDHOOD":"He grew up in the city of Kolkata (Also known as 'City of Joy'), India. \n He is the only child and spent more of his time with his mom as his dad is always on business tour.\n%[I want more](postback:morechildhood)",
+    "CHILDHOOD":"He grew up in the city of Kolkata (Also known as 'City of Joy'), India.\nHe is the only child and spent more of his time with his mom as his dad is always on business tour.%[I want more](postback:morechildhood)",
     "MORECHILDHOOD":"Jay liked to watch Sachin Tendulkar play on TV and also played with neighbourhood boys",
-    "EDUCATION":"As a kid, Jay joined local kindergarden before moving to a private school little far from home. He continued his schooling at the same school till A Levels.\n%[I want more](postback:moreeducation1",
+    "EDUCATION":"As a kid, Jay joined local kindergarden before moving to a private school little far from home. He continued his schooling at the same school till A Levels.%[I want more](postback:moreeducation1",
     "CONNECT ME": "",
-    "DISCONNECT": "Roger that, JayBot is back."
+    "DISCONNECT": "Roger that, JayBot is back.",
+    "TEST":"%[TESTing](postback:TEST)"
 }
