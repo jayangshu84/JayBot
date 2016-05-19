@@ -1,5 +1,5 @@
 {
-    "BOT": "Hi there!\nI’m the personal bot of Jay, a Site Reliability Engineer from London, UK.\n![jay](https://raw.githubusercontent.com/jayangshu84/JayBot/master/img/jay.jpg)\nWant to know more about bots or learn about Jay? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Jay](postback:LEARNABOUTJAY) %[One random fact!](postback:random_fact)",
+    "BOT": "Hi there!\nI’m the personal bot of Jay, a Site Reliability Engineer from London, UK.\n![jay](https://raw.githubusercontent.com/jayangshu84/JayBot/master/img/jay.jpg)\nWant to know more about bots or learn about Jay? %[Learn about Jay](postback:LEARNABOUTJAY) %[One random fact!](postback:randomfact)",
     "HELLO": "Hey, I'm so glad you want to chat JayBot up! Do you want to tell Jay that you're talking to his bot?",
     "TELL HIM": "Let's tweet @jayangshusaha so that he knows you want a bot like this. Here's a tweet that's ready to go: %[Tweet Jay]()",
     "I LOVE YOU": "Awh, shucks! I love you too!",
@@ -13,6 +13,7 @@
     "EDUCATION":"As a kid, Jay joined local kindergarden before moving to a private school little far from home. He continued his schooling at the same school till A Levels.%[I want more](postback:moreeducation1)",
     "MOREEDUCATION1":"After finishing his A Levels, Jay did his undergrad from WBUT majoring in Biotechnology. He moved to Manchester, UK to finish is postgrad majoring in Bioinformatics",
     "CAREER":"Jay started working at IDBS as Software Tester, before moving to newly created Healthcare Group as Consultant. In 2015, Jay became the founding member of newly formed DevOps team within IDBS' Product Delivery.",
+    "RANDOMFACT":"While in Manchester, Jay sold beers during English Premier League football matches at 'The Theatre of Dreams'.",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, JayBot is back."
 }
