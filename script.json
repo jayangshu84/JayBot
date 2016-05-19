@@ -12,6 +12,6 @@
     "MORECHILDHOOD":"Jay liked to watch Sachin Tendulkar play on TV and also played with neighbourhood boys",
     "EDUCATION":"As a kid, Jay joined local kindergarden before moving to a private school little far from home. He continued his schooling at the same school till A Levels.%[I want more](postback:moreeducation1",
     "CONNECT ME": "",
-    "DISCONNECT": "Roger that, JayBot is back.",
-    "TEST":"%[TESTing](postback:TEST)"
+    "TEST":"%[TESTing](postback:TEST",
+    "DISCONNECT": "Roger that, JayBot is back."
 }
