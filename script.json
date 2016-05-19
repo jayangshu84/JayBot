@@ -10,7 +10,7 @@
     "LEARN ABOUT JAY":"I can tell you a bunch of stuff about Jay. Let me know what's interesting to you.%[Childhood](postback:CHILDHOOD) %[Education](postback:EDUCATION) %[Career](postback:CAREER)",
     "CHILDHOOD":"He grew up in the city of Kolkata (Also known as 'City of Joy'), India.\nHe is the only child and spent more of his time with his mom as his dad is always on business tour.%[I want more](postback:morechildhood)",
     "MORECHILDHOOD":"Jay liked to watch Sachin Tendulkar play on TV and also played cricket with neighbourhood boys",
-    "EDUCATION":"As a kid, Jay joined local kindergarden before moving to a private school little far from home. He continued his schooling at the same school till A Levels.%[I want more](postback:moreeducation1",
+    "EDUCATION":"As a kid, Jay joined local kindergarden before moving to a private school little far from home. He continued his schooling at the same school till A Levels.%[I want more](postback:moreeducation1)",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, JayBot is back."
 }
